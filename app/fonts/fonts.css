@@ -1,0 +1,16 @@
+@font-face{
+    font-family: "Sawarabi Gothic";
+    src:url(./Sawarabi_Gothic/SawarabiGothic-Regular.ttf);
+}
+@font-face{
+    font-family: "Poppins - Semi Bold";
+    src:url(./Poppins/Poppins-SemiBold.ttf)
+}
+@font-face{
+    font-family: "Poppins - Light Italic";
+    src:url(./Poppins/Poppins-LightItalic.ttf)
+}
+@font-face{
+    font-family: "Poppins Medium";
+    src:url(./Poppins/Poppins-Medium.ttf)
+}
