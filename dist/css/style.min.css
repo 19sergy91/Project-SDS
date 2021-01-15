@@ -1,6 +1,6 @@
 body {
-  margin: auto;
-  width: 1750px;
+  width: 1600px;
+  margin: 0 auto;
 }
 
 .aside {
@@ -17,16 +17,11 @@ body {
   font-family: "Sawarabi Gothic";
   font-size: 32px;
   font-weight: 400;
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: 31.32px;
-  text-align: center;
   text-transform: uppercase;
-  font-style: normal;
   letter-spacing: 0.64px;
   line-height: normal;
-  margin-top: 40px;
-  margin-left: 45px;
+  margin-top: 37px;
+  margin-left: 40px;
 }
 
 .line {
@@ -34,8 +29,8 @@ body {
   height: 4px;
   border-radius: 2px;
   background-color: #4cb480;
-  margin-top: 27px;
-  margin-left: 62px;
+  margin-top: 24px;
+  margin-left: 58px;
 }
 
 .nav {
@@ -58,7 +53,7 @@ body {
   line-height: 50px;
   text-transform: uppercase;
   text-decoration: none;
-  margin-left: -40px;
+  margin-left: -50px;
 }
 
 .nav__list > li :hover {
@@ -71,8 +66,8 @@ body {
   background-color: #ffffff;
   opacity: 0.1;
   margin-top: 33px;
-  margin-bottom: 50px;
-  margin-left: 30px;
+  margin-bottom: 35px;
+  margin-left: 25px;
 }
 
 .search-icon {
@@ -95,25 +90,21 @@ body {
 .main-content {
   width: 1450px;
   height: 835px;
+  margin-left: 150px;
   background-color: #353a3f;
-  margin: auto;
 }
 
-.head {
+.content__title {
   color: #ffffff;
   font-family: "Poppins - Semi Bold";
-  font-size: 30px;
+  font-size: 28px;
   font-weight: 400;
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: 31.2px;
-  text-align: center;
   text-transform: uppercase;
   font-style: normal;
   letter-spacing: 3.1px;
   line-height: normal;
-  margin-left: -215px;
-  padding-top: 170px;
+  margin-left: 292px;
+  padding-top: 158px;
 }
 
 .main-content > hr {
@@ -121,84 +112,72 @@ body {
   height: 4px;
   border-radius: 2px;
   background-color: #4cb480;
-  margin-left: 325px;
-  margin-top: -140px;
+  margin-left: 290px;
+  margin-top: -132px;
   border: 0;
 }
 
-.main-content > h2 {
+.content__subtitle {
   color: #ffffff;
   font-family: "Poppins";
-  font-size: 30px;
-  font-weight: 500;
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: 31.2px;
-  text-align: left;
+  letter-spacing: 4px;
   text-transform: uppercase;
-  font-style: normal;
-  letter-spacing: 1.5px;
-  line-height: normal;
-  margin-left: 325px;
-  margin-top: 120px;
+  margin-left: 295px;
+  margin-top: 115px;
 }
 
-.main-content > h3 {
-  width: 788px;
-  height: 131px;
-  color: #bebebe;
+.content__text {
+  color: #808080;
   font-family: "Poppins";
-  font-size: 22px;
-  font-weight: 300;
-  line-height: 36px;
-  font-style: normal;
   text-align: left;
-  font-style: normal;
-  margin-left: 325px;
-  margin-top: -12px;
+  line-height: 35px;
+  letter-spacing: 1.2px;
+  margin-left: 295px;
+  margin-right: 420px;
+  margin-top: -8px;
 }
 
-.main-content > button {
+.content__button > button {
+  font-family: "Poppins - Semi Bold";
+  color: #ffffff;
   width: 200px;
   height: 60px;
+  font-size: 20px;
   border-radius: 30px;
   background-color: #4cb480;
-  margin-left: 325px;
-  margin-top: 40px;
+  text-transform: uppercase;
   border: 0;
   cursor: pointer;
+  margin-left: 285px;
+  margin-top: 24px;
 }
 
-.main-content > button > p {
-  color: #ffffff;
-  font-family: "Poppins - Semi Bold";
-  font-size: 17px;
-  font-style: normal;
-  text-align: center;
-  text-transform: uppercase;
-  font-style: normal;
+.content__button > button > p {
+  margin-top: 15px;
 }
 
-.main-content > button :hover {
+.content__button > button :hover {
   color: #282d32;
 }
 
 .hero {
   width: 1450px;
-  margin: 0px auto;
+  margin-left: 150px;
 }
 
 .content {
   display: flex;
-  margin: 120px;
+  margin-left: 60px;
+  margin-top: 120px;
+  margin-bottom: 120px;
 }
 
 .services {
   width: 363px;
   height: 450px;
   border-radius: 6px;
-  background-color: #eeeeee;
-  margin: auto;
+  background-color: #f6f6f6;
+  margin-left: 60px;
 }
 
 .services > .icon {
@@ -216,39 +195,23 @@ body {
 }
 
 .services > h2 {
-  /* Style for "Photos" */
   color: #353a3f;
   font-family: "Poppins - Semi Bold";
   font-size: 30px;
-  font-weight: 400;
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: 31.2px;
   text-align: center;
   text-transform: uppercase;
-  /* Text style for "Photos" */
-  font-style: normal;
   letter-spacing: 1.5px;
-  line-height: normal;
   margin-top: 51px;
 }
 
 .services > h3 {
-  /* Style for "Vestibulum" */
   width: 239px;
   height: 139px;
   color: #5a5f65;
   font-family: "Poppins";
   font-size: 16px;
-  font-weight: 300;
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: 30px;
   text-align: center;
-  /* Text style for "Vestibulum" */
-  font-style: normal;
   letter-spacing: 0.45px;
-  line-height: normal;
   margin-left: 60px;
 }
 
@@ -281,11 +244,11 @@ body {
   color: #282d32;
 }
 
-.wrapper {
+.feedback {
   width: 1450px;
   height: 600px;
+  margin-left: 150px;
   background-color: #353a3f;
-  margin: 0px auto;
 }
 
 .quote > img {
@@ -298,7 +261,6 @@ body {
 }
 
 .tittle {
-  /* Style for "In hac hab" */
   width: 766px;
   height: 143px;
   color: #bebebe;
@@ -306,18 +268,14 @@ body {
   font-size: 27px;
   font-weight: 400;
   font-style: normal;
-  letter-spacing: normal;
   line-height: 38.02px;
   text-align: left;
-  /* Text style for "In hac hab" */
-  font-style: normal;
   letter-spacing: 0.42px;
   line-height: normal;
   margin: -240px 325px;
 }
 
 .text {
-  /* Style for "Jim Gordon" */
   color: #8c9198;
   font-family: "Poppins Medium";
   font-size: 20px;
@@ -330,7 +288,6 @@ body {
 }
 
 .text > hr {
-  /* Style for "line" */
   width: 60px;
   height: 5px;
   border-radius: 2px;
@@ -341,11 +298,10 @@ body {
 
 .blog {
   width: 1450px;
-  margin: 0px auto;
+  margin-left: 150px;
 }
 
 .blog__heading > hr {
-  /* Style for "line" */
   width: 60px;
   height: 4px;
   border-radius: 2px;
@@ -374,10 +330,6 @@ body {
   margin-top: 60px;
 }
 
-.post-preview__desc {
-  margin: auto;
-}
-
 .post-preview__img > img {
   width: 565px;
   height: 330px;
@@ -395,22 +347,19 @@ body {
   text-align: left;
   text-transform: uppercase;
   margin-left: 65px;
-  margin-top: -25px;
+  margin-top: 0px;
 }
 
 .post-preview__text {
-  width: 546px;
-  height: 109px;
   color: #5a5f65;
   font-family: "Poppins";
   font-size: 17px;
-  font-weight: 300;
   font-style: normal;
-  line-height: 30px;
   text-align: left;
   letter-spacing: 0.45px;
   line-height: normal;
   margin-left: 65px;
+  margin-right: 65px;
 }
 
 .post-preview__button > button {
@@ -446,8 +395,8 @@ body {
 .panel {
   width: 1450px;
   height: 220px;
+  margin-left: 150px;
   background-color: #353a3f;
-  margin: 0px auto;
 }
 
 .messenger-icon {
@@ -457,7 +406,6 @@ body {
 }
 
 .facebook-icon svg {
-  /* Style for "facebook" */
   width: 25px;
   height: 30px;
   fill: #8f8f8f;
@@ -470,7 +418,6 @@ body {
 }
 
 .twitter-icon svg {
-  /* Style for "twitter" */
   width: 32px;
   height: 26px;
   fill: #8f8f8f;
@@ -483,11 +430,10 @@ body {
 }
 
 .instagram-icon svg {
-  /* Style for "instagram" */
   width: 30px;
   height: 32px;
   fill: #8f8f8f;
-  margin-right: 270px;
+  margin-right: 120px;
   margin-top: 100px;
 }
 
@@ -514,28 +460,23 @@ body {
   text-align: left;
   text-transform: uppercase;
   text-decoration: none;
-  /* Text style for "Work" */
   letter-spacing: 0.9px;
   line-height: normal;
 }
 
 .tittle__nav {
-  margin-left: 265px;
+  margin-left: 270px;
   margin-top: -115px;
 }
 
 .tittle__nav > p {
-  /* Style for "(c) 2018 N" */
   color: #666666;
   font-family: "Poppins";
   font-size: 16px;
   font-weight: 300;
   font-style: normal;
-  letter-spacing: normal;
   line-height: 30px;
   text-align: left;
-  /* Text style for "(c) 2018 N" */
-  font-style: normal;
   letter-spacing: 0.4px;
   line-height: normal;
 }
