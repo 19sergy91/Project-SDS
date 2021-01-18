@@ -1,5 +1,5 @@
    body{
-   width: 1600px;
+   min-width: 320px;
    margin: 0 auto;
    }
    .aside{
@@ -90,7 +90,7 @@
     font-style: normal;
     letter-spacing: 3.1px;
     line-height: normal;
-    margin-left: 292px;
+    margin-left: 323px;
     padding-top: 158px;
     }
     .main-content>hr{
@@ -98,7 +98,7 @@
     height: 4px;
     border-radius: 2px;
     background-color: #4cb480;
-    margin-left: 290px;
+    margin-left: 323px;
     margin-top: -132px;
     border: 0;
     }
@@ -107,7 +107,7 @@
     font-family: "Poppins";
     letter-spacing: 4px;
     text-transform: uppercase;
-    margin-left: 295px;
+    margin-left: 323px;
     margin-top: 115px;
     }
     .content__text{
@@ -116,8 +116,8 @@
     text-align: left;
     line-height: 35px;
     letter-spacing: 1.2px;
-    margin-left: 295px;
-    margin-right: 420px;
+    margin-left: 323px;
+    margin-right: 335px;
     margin-top: -8px;
     }
     .content__button>button{
@@ -129,9 +129,9 @@
     border-radius: 30px;
     background-color: #4cb480;
     text-transform: uppercase;
-    border: 0;
+    border: none;
     cursor: pointer; 
-    margin-left: 285px;
+    margin-left: 323px;
     margin-top: 24px;
     }
     .content__button>button>p{
@@ -354,7 +354,7 @@
     }
     .messenger-icon{
     display: flex;
-    justify-content: flex-end;
+    margin-left: 1300px;
     margin-top: -165px;
     }
     .facebook-icon svg{
