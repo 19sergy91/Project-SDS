@@ -10,22 +10,22 @@
 </head>
 
 <body>
-    <div class="wrapper">
+    <div class="container">
         <div class="aside">
+            <span>
+                <input type="checkbox" id="check-menu">
+            </span>
             <div class="logo">
-                <p>sds</p>
+                sds
             </div>
-            <div class="line"></div>
             <div class="nav">
-                <hr>
-                <ul class="nav__list">
+                <div class="nav__list">
                     <li class="nav__list-item"><a href="#">work</a></li>
                     <li class="nav__list-item"><a href="#">about</a></li>
                     <li class="nav__list-item"><a href="#">services</a></li>
                     <li class="nav__list-item"><a href="#">blog</a></li>
                     <li class="nav__list-item"><a href="#">contact</a></li>
-                </ul>
-                <hr>
+                </div>
             </div>
             <div class="search-icon">
                 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
@@ -41,18 +41,17 @@
         </div>
         <div class="main-content">
             <div class="content__title">
-                <h1>Title Of The Page</h1>
+                Title Of The Page
             </div>
-            <hr>
             <div class="content__subtitle">
-                <h2>subtitle</h2>
+                subtitle
             </div>
             <div class="content__text">
-                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra turpis tristique nisi
-                    laoreet
-                    gravida. Sed sed orci ut ante pellentesque efficitur id ac erat. Morbi metus metus, dictum sed arcu
-                    at,
-                    interdum porttitor erat.</h3>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra turpis tristique nisi
+                laoreet
+                gravida. Sed sed orci ut ante pellentesque efficitur id ac erat. Morbi metus metus, dictum sed arcu
+                at,
+                interdum porttitor erat.
             </div>
             <div class="content__button">
                 <button>
@@ -60,34 +59,53 @@
                 </button>
             </div>
         </div>
-        <div class="hero">
-            <div class="content">
-                <div class="services">
-                    <div class="icon"><img src="images/photo.png" alt=""></div>
-                    <h2>photos</h2>
-                    <h3>Vestibulum suscipit tortor magna, quis pellentesque arcu volutpat ac. Tempus leo erat, sit
-                        amet
-                        ullamcorper nisl.</h3>
+        <div class="wrapper">
+            <div class="services">
+                <div class="circle">
+                    <div class="icon"><img src="./images/photo.png" alt=""></div>
+                </div>
+                <div class="main__text">
+                    photos
+                </div>
+                <div class="services__text">
+                    Vestibulum suscipit tortor magna, quis pellentesque arcu volutpat ac. Tempus leo erat, sit amet
+                    ullamcorper nisl.
+                </div>
+                <div class="services__button">
                     <button>
                         <p>button</p>
                     </button>
                 </div>
-                <div class="services">
-                    <div class="icon"><img src="images/film.png" alt=""></div>
-                    <h2>videos</h2>
-                    <h3>Vestibulum suscipit tortor magna, quis pellentesque arcu volutpat ac. Tempus leo erat, sit
-                        amet
-                        ullamcorper nisl.</h3>
+            </div>
+            <div class="services">
+                <div class="circle">
+                    <div class="icon"><img src="./images/film.png" alt=""></div>
+                </div>
+                <div class="main__text">
+                    videos
+                </div>
+                <div class="services__text">
+                    Vestibulum suscipit tortor magna, quis pellentesque arcu volutpat ac. Tempus leo erat, sit amet
+                    ullamcorper nisl.
+                </div>
+                <div class="services__button">
                     <button>
                         <p>button</p>
                     </button>
                 </div>
-                <div class="services">
-                    <div class="icon"><img src="images/download.png" alt=""></div>
-                    <h2>downloads</h2>
-                    <h3>Vestibulum suscipit tortor magna, quis pellentesque arcu volutpat ac. Tempus leo erat, sit
-                        amet
-                        ullamcorper nisl.</h3>
+            </div>
+            <div class="services">
+                <div class="circle">
+                    <div class="icon"><img src="./images/download.png" alt=""></div>
+                </div>
+                <div class="main__text">
+                    downloads
+                </div>
+                <div class="services__text">
+                    Vestibulum suscipit tortor magna, quis pellentesque arcu volutpat ac. Tempus leo erat, sit amet
+                    ullamcorper nisl.
+                </div>
+                <div class="services__button">
                     <button>
                         <p>button</p>
                     </button>
@@ -107,14 +125,12 @@
                     ut tempus ex. Nunc dictum est enim, consectetur convallis odio mollis tempus!</p>
             </div>
             <div class="text">
-                <hr>
                 <p>Jim Gordon (GCPD)</p>
             </div>
         </div>
         <div class="blog">
             <div class="blog__heading">
-                <hr>
-                <h3>from the blog</h3>
+                from the blog
             </div>
             <div class="post-preview">
                 <div class="post-preview__img">
@@ -122,13 +138,17 @@
                         src="https://media-exp1.licdn.com/dms/image/C561BAQEdSf9_qKdTeA/company-background_10000/0?e=2159024400&v=beta&t=Syou7pwjA1Q-CX36voTrRmSlUHrxRWTptHjRtOZoVhQ">
                 </div>
                 <div class="post-preview__desc">
-                    <h3 class="post-preview__title">Title of a post</h3>
-                    <p class="post-preview__text">In hac habitasse platea dictumst. Phasellus finibus ipsum enim,
-                        non
-                        pretium
-                        massa mattis non. Curabitur ut tempus ex. Nunc dictum est enim, consectetur convallis odio
-                        mollis
-                        tempus.</p>
+                    <div class="post-preview__title">
+                        <p>title of a post</p>
+                    </div>
+                    <div class="post-preview__text">
+                        <p>In hac habitasse platea dictumst. Phasellus finibus ipsum enim,
+                            non
+                            pretium
+                            massa mattis non. Curabitur ut tempus ex. Nunc dictum est enim, consectetur convallis odio
+                            mollis
+                            tempus.</p>
+                    </div>
                     <div class="post-preview__actions">
                         <div class="post-preview__button">
                             <button>
@@ -144,13 +164,17 @@
                         src="https://media-exp1.licdn.com/dms/image/C561BAQEdSf9_qKdTeA/company-background_10000/0?e=2159024400&v=beta&t=Syou7pwjA1Q-CX36voTrRmSlUHrxRWTptHjRtOZoVhQ">
                 </div>
                 <div class="post-preview__desc">
-                    <h3 class="post-preview__title">Title of a post</h3>
-                    <p class="post-preview__text">In hac habitasse platea dictumst. Phasellus finibus ipsum enim,
-                        non
-                        pretium
-                        massa mattis non. Curabitur ut tempus ex. Nunc dictum est enim, consectetur convallis odio
-                        mollis
-                        tempus.</p>
+                    <div class="post-preview__title">
+                        <p>title of a post</p>
+                    </div>
+                    <div class="post-preview__text">
+                        <p>In hac habitasse platea dictumst. Phasellus finibus ipsum enim,
+                            non
+                            pretium
+                            massa mattis non. Curabitur ut tempus ex. Nunc dictum est enim, consectetur convallis odio
+                            mollis
+                            tempus.</p>
+                    </div>
                     <div class="post-preview__actions">
                         <div class="post-preview__button">
                             <button>
@@ -166,13 +190,17 @@
                         src="https://media-exp1.licdn.com/dms/image/C561BAQEdSf9_qKdTeA/company-background_10000/0?e=2159024400&v=beta&t=Syou7pwjA1Q-CX36voTrRmSlUHrxRWTptHjRtOZoVhQ">
                 </div>
                 <div class="post-preview__desc">
-                    <h3 class="post-preview__title">Title of a post</h3>
-                    <p class="post-preview__text">In hac habitasse platea dictumst. Phasellus finibus ipsum enim,
-                        non
-                        pretium
-                        massa mattis non. Curabitur ut tempus ex. Nunc dictum est enim, consectetur convallis odio
-                        mollis
-                        tempus.</p>
+                    <div class="post-preview__title">
+                        <p>title of a post</p>
+                    </div>
+                    <div class="post-preview__text">
+                        <p>In hac habitasse platea dictumst. Phasellus finibus ipsum enim,
+                            non
+                            pretium
+                            massa mattis non. Curabitur ut tempus ex. Nunc dictum est enim, consectetur convallis odio
+                            mollis
+                            tempus.</p>
+                    </div>
                     <div class="post-preview__actions">
                         <div class="post-preview__button">
                             <button>
@@ -221,6 +249,7 @@
             </div>
         </div>
     </div>
+    <script src="./scripts.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,16 @@
+extends layout
+
+block content
+    .container
+        .row
+            .col
+                h1 Login page
+                form#login-form
+                    .form-group
+                        label(for='firstname') Name
+                        input#firstname.form-control(type='text' name='username' placeholder='firstname')
+                    .form-group
+                        label(for='lastname') Password
+                        input#lastname.form-control(type='password' name='password' placeholder='password')
+                    .form-group
+                        button#login-btn.btn.btn-primary Login

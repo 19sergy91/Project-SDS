@@ -1,0 +1,17 @@
+extends layout
+
+
+block content
+    .container  
+        .row
+            .col
+                form#form
+                    .form-group
+                        label(for='firstname') Name
+                        input#firstname.form-control(type='text' name='firstname' placeholder='firstname')
+                    .form-group
+                        label(for='lastname') LastName
+                        input#lastname.form-control(type='text' name='lastname' placeholder='lastname')
+                    .form-group
+                        button.btn.btn-primary Add
+                    div.status
